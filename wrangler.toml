@@ -1,4 +1,4 @@
-name = "cloudflare_worker"
+name = "cloudflare_worker_soap"
 main = "src/worker.ts"
 compatibility_date = "2023-07-10"
 
@@ -50,3 +50,8 @@ compatibility_date = "2023-07-10"
 # tag = "v1"
 # new_classes = ["MyDurableObject"]
 # node_compat = true
+
+
+routes = [
+	{ pattern = "workersubdomain.joaosilvagomes.com", custom_domain = true }
+]

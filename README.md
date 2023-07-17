@@ -22,5 +22,5 @@ git branch -M main
 git remote add origin https://github.com/joaosgomes/Cloudflare_Worker_SOAP.git
 git push -u origin main
 
-
+git rm -r --cached node_modules.
 ````
