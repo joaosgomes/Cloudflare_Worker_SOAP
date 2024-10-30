@@ -29,3 +29,10 @@ git rm -r --cached node_modules.
 https://worker.joao-s-gomes.workers.dev/
 
 https://workersubdomain.joaosilvagomes.com/
+
+
+# Test
+
+Connect your Worker to a git repository for automatic builds and deployments
+
+ATTEMPT: OVERRIDE EXISTING CODE
